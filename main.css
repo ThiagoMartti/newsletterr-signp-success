@@ -7,11 +7,16 @@
 
 :root{
    --TOMATO: hsl(4,100%,67%)
-   --Dark-slate-grey: hsl(234, 29%,20%)
-   --Charcoal-Grey: hsl(235, 18%, 26%)
-   --Grey: hsl(231,7%,60%)
-   --White: hsl(0, 0%, 100%)
+   --Dark-slate-grey: hsl(234, 29%, 20%);
+   --Charcoal-Grey: hsl(235, 18%, 26%);
+   --Grey: hsl(231, 7%, 60%);
+   --White: hsl(0, 0%, 100%);
 }
+
+html{
+   font-family: 'Roboto', sans-serif;
+}
+
  main article figure{
     height: 284px;
     width: 100%;
@@ -87,7 +92,7 @@
 
   /*DESTOP*/
 
-  @media (min-width: 1023px){
+@media (min-width: 1023px){
 
    body{
       background-color: floralwhite;
@@ -109,7 +114,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       width: 400px;
-      max-height: 593px;
+      height: 593px;
+      background-color: red;
    }
 
    .info-container{
@@ -118,7 +124,7 @@
       height: 593px; ;
       padding: 4rem;
    }
-  }
+}
     
       
     
